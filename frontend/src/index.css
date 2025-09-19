@@ -1,0 +1,233 @@
+/*
+ * Warm & Friendly CSS Theme
+ *
+ * This design uses soft colors, rounded corners, and a more inviting feel.
+ * It's less formal and aims to create a comfortable user experience.
+ */
+
+/* --- Universal & Base Styles --- */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: #f9e4d4;
+  color: #4b4b4b;
+  margin: 0;
+  padding: 20px;
+}
+
+
+
+/* --- Main Container Styles --- */
+
+.auth-page, .dashboard {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 32px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-align: center;
+  color: #6a3d9a;
+  margin-bottom: 24px;
+}
+
+/* --- Input & Textarea Styles --- */
+
+input, textarea, button {
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+input, textarea {
+  display: block;
+  width: 100%;
+  padding: 14px 18px;
+  margin: 10px 0;
+  border: 2px solid #e0c2a8;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #a38b69;
+  box-shadow: 0 0 0 4px rgba(163, 139, 105, 0.2);
+}
+
+/* --- Button Styles --- */
+
+button {
+  padding: 14px 28px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: #a38b69;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #927f61;
+  transform: translateY(-2px);
+}
+
+.note-form button[type="button"] {
+  background-color: #f0e0d1;
+  color: #a38b69;
+}
+
+.note-form button[type="button"]:hover {
+  background-color: #e0c2a8;
+}
+
+/* --- Header & Navigation --- */
+
+.app-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #e0c2a8;
+}
+
+.app-logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.app-logo {
+  height: 100px;
+  margin-right: 12px;
+}
+
+.app-name {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #6a3d9a;
+  margin: 0;
+}
+
+/* Updated header within the dashboard container */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+p {
+  text-align: center;
+  margin-top: 24px;
+  color: #7a7a7a;
+}
+
+.auth-page a, .dashboard a {
+  color: #6a3d9a;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.auth-page a:hover, .dashboard a:hover {
+  color: #553382;
+  text-decoration: underline;
+}
+
+/* --- Notes List & Items --- */
+
+.notes-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.notes-list li {
+  border: 1px solid #e0c2a8;
+  padding: 20px;
+  border-radius: 16px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.notes-list li:hover {
+  transform: translateY(-3px);
+  box-shadow: 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.notes-list strong {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #6a3d9a;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.notes-list p {
+  color: #7a7a7a;
+  line-height: 1.6;
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+/* --- Actions & Error Messages --- */
+
+.actions {
+  margin-top: 16px;
+  text-align: right;
+}
+
+.actions button {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  margin-left: 8px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.actions button:first-child {
+  background-color: #f0e0d1;
+  color: #a38b69;
+}
+
+.actions button:last-child {
+  background-color: #e57373;
+  color: #fff;
+}
+
+.actions button:first-child:hover {
+  background-color: #e0c2a8;
+}
+
+.actions button:last-child:hover {
+  background-color: #d36464;
+}
+
+.error {
+  color: #c62828;
+  background-color: #ffcdd2;
+  padding: 10px 15px;
+  border-radius: 12px;
+  margin-top: 16px;
+  text-align: center;
+}
