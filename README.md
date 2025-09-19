@@ -41,11 +41,9 @@ Follow these steps to set up and run the project locally.
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
+git clone https://github.com/keerthana7676/Notes-Manager.git
 cd your-repository-name
 ```
-
-> **Note:** Replace `your-username/your-repository-name.git` with your actual repository URL.
 
 ### Step 2: Backend Setup
 
