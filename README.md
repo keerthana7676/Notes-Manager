@@ -108,4 +108,4 @@ The backend provides the following RESTful API endpoints:
   * `DELETE /api/notes/:id` - Delete a note by its ID
 
 Deployed: notes-manager-livid.vercel.app
-
+Demo Video: https://drive.google.com/file/d/1QSHgxKUYsC9QlO8pjfIi0kfd50EgxgRK/view?usp=drive_link
