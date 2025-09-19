@@ -107,3 +107,5 @@ The backend provides the following RESTful API endpoints:
   * `PUT /api/notes/:id` - Update a note by its ID
   * `DELETE /api/notes/:id` - Delete a note by its ID
 
+Deployed: notes-manager-livid.vercel.app
+
